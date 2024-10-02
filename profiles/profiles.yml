@@ -1,0 +1,12 @@
+brightwheel_jin:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: brightwheel-437322
+      dataset: brightwheel_dataset
+      keyfile: ./brightwheel_gcp_key.json
+      threads: 4
+      location: US
+      gcs_bucket: "brightwheel_assessment"

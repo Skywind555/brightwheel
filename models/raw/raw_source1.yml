@@ -1,0 +1,44 @@
+version: 2
+models:
+- name: raw_source1
+  description: Schema for source1 data
+  columns:
+  - name: name
+    type: STRING
+    mode: NULLABLE
+  - name: credential_type
+    type: STRING
+    mode: NULLABLE
+  - name: credential_number
+    type: STRING
+    mode: NULLABLE
+  - name: status
+    type: STRING
+    mode: NULLABLE
+  - name: expiration_date
+    type: STRING
+    mode: NULLABLE
+  - name: disciplinary_action
+    type: STRING
+    mode: NULLABLE
+  - name: address
+    type: STRING
+    mode: NULLABLE
+  - name: state
+    type: STRING
+    mode: NULLABLE
+  - name: county
+    type: STRING
+    mode: NULLABLE
+  - name: phone
+    type: STRING
+    mode: NULLABLE
+  - name: first_issue_date
+    type: STRING
+    mode: NULLABLE
+  - name: primary_contact_name
+    type: STRING
+    mode: NULLABLE
+  - name: primary_contact_role
+    type: STRING
+    mode: NULLABLE

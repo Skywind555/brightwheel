@@ -1,0 +1,19 @@
+name: 'brightwheel_assessment'
+version: '1.0'
+config-version: 2
+
+vars:
+  project_id: "brightwheel-437322"
+  dataset_name: "brightwheel_dataset"
+
+profile: 'brightwheel_jin'
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+
+target-path: "target"
+log-path: "logs"
+
+
+

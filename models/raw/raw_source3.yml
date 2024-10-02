@@ -1,0 +1,65 @@
+version: 2
+models:
+- name: raw_source3
+  description: Schema for source3 data
+  columns:
+  - name: operation
+    type: STRING
+    mode: NULLABLE
+  - name: agency_number
+    type: STRING
+    mode: NULLABLE
+  - name: operation_name
+    type: STRING
+    mode: NULLABLE
+  - name: address
+    type: STRING
+    mode: NULLABLE
+  - name: city
+    type: STRING
+    mode: NULLABLE
+  - name: state
+    type: STRING
+    mode: NULLABLE
+  - name: zip
+    type: STRING
+    mode: NULLABLE
+  - name: county
+    type: STRING
+    mode: NULLABLE
+  - name: phone
+    type: STRING
+    mode: NULLABLE
+  - name: type
+    type: STRING
+    mode: NULLABLE
+  - name: status
+    type: STRING
+    mode: NULLABLE
+  - name: issue_date
+    type: STRING
+    mode: NULLABLE
+  - name: capacity
+    type: STRING
+    mode: NULLABLE
+  - name: email_address
+    type: STRING
+    mode: NULLABLE
+  - name: facility_id
+    type: STRING
+    mode: NULLABLE
+  - name: monitoring_frequency
+    type: STRING
+    mode: NULLABLE
+  - name: infant
+    type: STRING
+    mode: NULLABLE
+  - name: toddler
+    type: STRING
+    mode: NULLABLE
+  - name: preschool
+    type: STRING
+    mode: NULLABLE
+  - name: school
+    type: STRING
+    mode: NULLABLE

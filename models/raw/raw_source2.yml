@@ -1,0 +1,95 @@
+version: 2
+models:
+- name: raw_source2
+  description: Schema for source2 data
+  columns:
+  - name: type_license
+    type: STRING
+    mode: NULLABLE
+  - name: company
+    type: STRING
+    mode: NULLABLE
+  - name: accepts_subsidy
+    type: STRING
+    mode: NULLABLE
+  - name: year_round
+    type: STRING
+    mode: NULLABLE
+  - name: daytime_hours
+    type: STRING
+    mode: NULLABLE
+  - name: star_level
+    type: STRING
+    mode: NULLABLE
+  - name: mon
+    type: STRING
+    mode: NULLABLE
+  - name: tues
+    type: STRING
+    mode: NULLABLE
+  - name: wed
+    type: STRING
+    mode: NULLABLE
+  - name: thurs
+    type: STRING
+    mode: NULLABLE
+  - name: friday
+    type: STRING
+    mode: NULLABLE
+  - name: saturday
+    type: STRING
+    mode: NULLABLE
+  - name: sunday
+    type: STRING
+    mode: NULLABLE
+  - name: primary_caregiver
+    type: STRING
+    mode: NULLABLE
+  - name: phone
+    type: STRING
+    mode: NULLABLE
+  - name: email
+    type: STRING
+    mode: NULLABLE
+  - name: address1
+    type: STRING
+    mode: NULLABLE
+  - name: address2
+    type: STRING
+    mode: NULLABLE
+  - name: city
+    type: STRING
+    mode: NULLABLE
+  - name: state
+    type: STRING
+    mode: NULLABLE
+  - name: zip
+    type: STRING
+    mode: NULLABLE
+  - name: subsidy_contract_number
+    type: STRING
+    mode: NULLABLE
+  - name: total_cap
+    type: STRING
+    mode: NULLABLE
+  - name: ages_accepted_1
+    type: STRING
+    mode: NULLABLE
+  - name: aa2
+    type: STRING
+    mode: NULLABLE
+  - name: aa3
+    type: STRING
+    mode: NULLABLE
+  - name: aa4
+    type: STRING
+    mode: NULLABLE
+  - name: license_monitoring_since
+    type: STRING
+    mode: NULLABLE
+  - name: school_year_only
+    type: STRING
+    mode: NULLABLE
+  - name: evening_hours
+    type: STRING
+    mode: NULLABLE
